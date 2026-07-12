@@ -22,9 +22,9 @@ export const errorHandler = (
 
   // If it's a Zod validation error
   if (err instanceof ZodError) {
-    // Return standard validation error message format from description (e.g. Description and location are required.)
-    // We will extract a user friendly summary.
-    const message = err.errors.map((e) => e.message).join('. ');
+    // Collect unique messages to avoid duplicated errors (e.g. if both description and location are missing)
+    const uniqueMessages = Array.from(new Set(err.errors.map((e) => e.message)));
+    const message = uniqueMessages.join('. ');
     return res.status(400).json({
       success: false,
       message: message || 'Validation failed'
