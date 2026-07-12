@@ -5,7 +5,7 @@ const options: swaggerJSDoc.Options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'CrisisDesk AI API',
+      title: 'CrisisDesk API',
       version: '1.0.0',
       description: 'Intelligent emergency and service request triage API with Gemini fallback support',
     },

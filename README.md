@@ -1,6 +1,6 @@
-# CrisisDesk AI: Intelligent Backend API for Emergency & Service Request Triage
+# CrisisDesk API: Intelligent Backend API for Emergency & Service Request Triage
 
-CrisisDesk AI is a production-grade, AI-powered emergency triage backend API. It receives emergency reports from citizens, automatically detects the language (prioritizing Bangla and phonetic Banglish), translates and processes them using Google Gemini AI, assigns urgency, detects duplicates via pgvector cosine similarity, and provides admin management endpoints.
+CrisisDesk API is a production-grade, AI-powered emergency triage backend API. It receives emergency reports from citizens, automatically detects the language (prioritizing Bangla and phonetic Banglish), translates and processes them using Google Gemini AI, assigns urgency, detects duplicates via pgvector cosine similarity, and provides admin management endpoints.
 
 ## 🚀 Key Features
 

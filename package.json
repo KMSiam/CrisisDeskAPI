@@ -1,7 +1,7 @@
 {
-  "name": "crisis-desk-ai",
+  "name": "crisis-desk-api",
   "version": "1.0.0",
-  "description": "CrisisDesk AI: Intelligent Backend API for Emergency & Service Request Triage",
+  "description": "CrisisDesk API: Intelligent Backend API for Emergency & Service Request Triage",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
