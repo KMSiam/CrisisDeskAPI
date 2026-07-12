@@ -14,6 +14,10 @@ const options: swaggerJSDoc.Options = {
         url: `http://localhost:${env.PORT}`,
         description: 'Development server',
       },
+      {
+        url: 'https://crisisdesk-ai-emqh.onrender.com',
+        description: 'Production server',
+      },
     ],
     components: {
       securitySchemes: {
