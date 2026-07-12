@@ -11,7 +11,7 @@ const options: swaggerJSDoc.Options = {
     },
     servers: [
       {
-        url: 'https://crisisdesk-ai-emqh.onrender.com',
+        url: 'https://crisisdeskapi.onrender.com',
         description: 'Production server',
       },
     ],
